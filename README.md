@@ -1,10 +1,10 @@
-About
+**About**
 
 Blue Sentinel is an anti-cheat tool for Dark Souls III, it will protect you from malicious cheats, flag players who use them, and allow you to kick them from your world.
 
 If you're enjoying this mod, and want to support me, you can buy me a coffee here: https://ko-fi.com/lukeyui
 
-What does it do?
+**What does it do?**
 
 This tool aims to identify cheaters and mitigate the impact they have on your online play, through a few different methods:
 
@@ -53,7 +53,7 @@ Unfortunately, the item give cheat (aka Item Inject) was just the tip of the ice
 
 I would recommend that every player who wants to play online uses a protection tool, and Blue Sentinel offers the greatest coverage against both well-known and obscure exploits.
 
-Flags
+**Flags**
 
 If you have the overlay enabled, Blue Sentinel will flag users in your session. There are 9 different flags a player can get:
 
@@ -72,7 +72,7 @@ If you have the overlay enabled, Blue Sentinel will flag users in your session. 
 
 Important note - Flags do not necessarily imply malicious intent from the player. For example there is a bug in a commonly used anti-cheat tool which will flag up in Blue Sentinel because it looks identical to a harmful action, if someone gets flagged and doesn't otherwise seem to be cheating, it's worthwhile to reach out to them and ask them about it. Blue Sentinel shouldn't be used as an all-tell for who is and isn't cheating, and please do not witch hunt players who are flagged.
 
-Glitches
+**Glitches**
 
 Blue sentinel tries to pick up players abusing some glitches and exploits in PvP. I've erred more on the side of caution here, so Blue Sentinel will not flag a glitch if it's not absolutely sure whether the player is glitching or not to avoid false flags. Please note that glitch detection is *disabled by default* within the ini file.
 
@@ -99,7 +99,7 @@ Blue Sentinel does **not** disable Dark Souls III's anticheat
 
 *The "SkipLogos" setting in the ini file does do this, but it is a safe edit, and will not cause a softban.
 
-How do I use it?
+**How do I use it?**
 
 You should use Blue Sentinel as a stand-alone protection tool - Uninstall any other online protection mods (e.g. watchdog) you may have first.
 
@@ -112,7 +112,7 @@ To uninstall the mod, you just have to remove these files, or if you just want a
 
 When the mod runs for the first time, it will create a directory called "Blue Sentinel" in your Dark Souls III folder where logs will be stored.
 
-FAQ:
+**FAQ:**
 
 Q) Does Blue Sentinel check/log IPs?
 A) No, unlike other anti-cheat tools Blue Sentinel does not grab or use your or anyone else's or IP addresses.
@@ -141,7 +141,7 @@ A) No, sorry. Watchdog allowed this because we hoped the community could add to 
 Q) I have a question not answered here.
 A) If you need more information, or wish to report a bug, have a suggestion etc. please make a post about it, or send me a direct message.
 
-Notes
+**Notes**
 
 A huge thanks to all of the beta testers of this mod, it would not be possible to have made this without them:
 inuNorii, Dalvik, sfix, Gáté, Specter, Roxanne (Busty Patches), AntonioCS, Purpurea, Rayan, iamamish
