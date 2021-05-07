@@ -23,29 +23,29 @@ In addition to this, if you use the overlay, it will display the other players i
 
 For more details on what Blue Sentinel does in the background, see below, note that this is not an exhaustive list and BS has hundreds of patches across multiple different categories: 
 
-Invalid items cannot be dropped to you, or given directly to you.
-Fixed 2 crashes associated with equipment packets
-Fixed 5 crashes related to player coordinate packets
-Fixed 3 crashes, and 6 exploits associated with item packets
-Fixed a crash, and an exploit involving a type of world flag packet
-Fixed a memory allocation error with player initialisation packets
-Fixed 2 crashes, and an exploit, involving player structure packets; Also prevents players changing their SteamID
-Fixed 2 buffer overrun crashes relating to world initialisation packets
-Players cannot apply custom effects on-hit such as curse
-Fixed a out of bounds crash involving WorldChrSync initiation packets
-Fixed 4 crashes related to player animation packets
-Fixed 2 crashes related to enemy load synchronisation packets
-Fixed 2 crashes relating to player bullet initialisation packets
-Fixed 2 crashes relating to NPC behavior packets
-Fixed an exploit that allowed players to apply effects to you (a.k.a "Autopilot")
-Fixed a crash related to irregularly sized packets
-Fixed 4 crashes, and 6 exploits relating to "MsgMapList" events. (e.g. "Force Animations")
-Removed old netcode which allowed malicious users to modify other's soul count
-Removed old netcode which allowed malicious users to modify the "humanity" other players
-Fixed over 10 exploits and crashes involving the 'NetPackingVector'
-Multiple packet validation checks, trying to fix both common and more 'unique' cheats.
+* Invalid items cannot be dropped to you, or given directly to you.
+* Fixed 2 crashes associated with equipment packets
+* Fixed 5 crashes related to player coordinate packets
+* Fixed 3 crashes, and 6 exploits associated with item packets
+* Fixed a crash, and an exploit involving a type of world flag packet
+* Fixed a memory allocation error with player initialisation packets
+* Fixed 2 crashes, and an exploit, involving player structure packets; Also prevents players changing their SteamID
+* Fixed 2 buffer overrun crashes relating to world initialisation packets
+* Players cannot apply custom effects on-hit such as curse
+* Fixed a out of bounds crash involving WorldChrSync initiation packets
+* Fixed 4 crashes related to player animation packets
+* Fixed 2 crashes related to enemy load synchronisation packets
+* Fixed 2 crashes relating to player bullet initialisation packets
+* Fixed 2 crashes relating to NPC behavior packets
+* Fixed an exploit that allowed players to apply effects to you (a.k.a "Autopilot")
+* Fixed a crash related to irregularly sized packets
+* Fixed 4 crashes, and 6 exploits relating to "MsgMapList" events. (e.g. "Force Animations")
+* Removed old netcode which allowed malicious users to modify other's soul count
+* Removed old netcode which allowed malicious users to modify the "humanity" other players
+* Fixed over 10 exploits and crashes involving the 'NetPackingVector'
+* Multiple packet validation checks, trying to fix both common and more 'unique' cheats.
 
-Why should I use a protection tool in (current year)?
+## Why should I use a protection tool in (current year)?
 
 The cheating scene in Dark Souls has moved on from simple annoyances like cursing and one-shots to more malicious intent (such as crashing, banning, ruining saves etc)
 
@@ -57,15 +57,15 @@ I would recommend that every player who wants to play online uses a protection t
 
 If you have the overlay enabled, Blue Sentinel will flag users in your session. There are 9 different flags a player can get:
 
-[Blocked] - The player connecting has been blocked via Steam*
-[Blocked Alt] - The player is family sharing the game from an account that you have blocked**
-[Malicious] - A check in Blue Sentinel has detected irregular data being sent from the player
-[Cheating] - Blue Sentinel has detected that the player has a greatly unfair advantage - Reserved for non-downscaled phantoms
-[Borderline] - A check in Blue Sentinel has detected irregular data being sent from the player, but it is indistinguishable from extremely high latency
-[Invalid Stats] - The player has modified stats that are inconsistent with their soul level
-[Impossible Stats] - The player has modified stats that are impossible to achieve through normal means, but have a normal soul level
-[Kicked] - The player has been kicked through Blue Sentinel
-[Glitching] - The player is abusing exploits (or using "glitches") such as infinite stamina with the Ring of Favour glitch, or avoiding the estus recovery animation to gain a frame advantage
+* [Blocked] - The player connecting has been blocked via Steam*
+* [Blocked Alt] - The player is family sharing the game from an account that you have blocked**
+* [Malicious] - A check in Blue Sentinel has detected irregular data being sent from the player
+* [Cheating] - Blue Sentinel has detected that the player has a greatly unfair advantage - Reserved for non-downscaled phantoms
+* [Borderline] - A check in Blue Sentinel has detected irregular data being sent from the player, but it is indistinguishable from extremely high latency
+* [Invalid Stats] - The player has modified stats that are inconsistent with their soul level
+* [Impossible Stats] - The player has modified stats that are impossible to achieve through normal means, but have a normal soul level
+* [Kicked] - The player has been kicked through Blue Sentinel
+* [Glitching] - The player is abusing exploits (or using "glitches") such as infinite stamina with the Ring of Favour glitch, or avoiding the estus recovery animation to gain a frame advantage
 
 *Dark Souls III will usually kick the player, however it takes 5 minutes between blocking the player and updating in the game.
 **Within the ini file, there is an option which allows you to treat blocked alts as normal blocked players, refusing the connection when they join.
@@ -77,12 +77,12 @@ Important note - Flags do not necessarily imply malicious intent from the player
 Blue sentinel tries to pick up players abusing some glitches and exploits in PvP. I've erred more on the side of caution here, so Blue Sentinel will not flag a glitch if it's not absolutely sure whether the player is glitching or not to avoid false flags. Please note that glitch detection is *disabled by default* within the ini file.
 
 Not all glitches are detected, only the ones that seem more damaging to the online play. This is a balance between: How easy are they to perform; How popular are they amongst the community; What are their impacts on normal PvP? So far, Blue Sentinel should be able to accurately detect:
-Estus cancel
-Some variances of the "bow glitch"
-Illegal sacred flame grabs
-Weapon art swap with "Parting Flame"
-Weapon art swap with "Repeat Fire"
-Infinite stamina with ring of favour rapid equipping/unequipping
+* Estus cancel
+* Some variances of the "bow glitch"
+* Illegal sacred flame grabs
+* Weapon art swap with "Parting Flame"
+* Weapon art swap with "Repeat Fire"
+* Infinite stamina with ring of favour rapid equipping/unequipping
 
 When a player performs one of these glitches, they will get the [Glitching] flag. To avoid abuse (e.g. someone only kicking for 1 glitch detected a while ago because they are losing) this flag will expire after 10 - 15 seconds, but will be reapplied if the player continues to abuse glitches. If you use certain glitches yourself whilst using Blue Sentinel, it will turn the detection for other players off.
 
