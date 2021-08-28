@@ -114,8 +114,7 @@ When the mod runs for the first time, it will create a directory called "Blue Se
 
 ## **FAQ:**
 
-### Q) Does Blue Sentinel check/log IPs?
-
+#### Q) Does Blue Sentinel check/log IPs?
 A) No, unlike other anti-cheat tools Blue Sentinel does not grab or use your or anyone else's or IP addresses.
 
 Q) Why are you flagging glitches?
