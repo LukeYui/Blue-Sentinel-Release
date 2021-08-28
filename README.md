@@ -117,35 +117,29 @@ When the mod runs for the first time, it will create a directory called "Blue Se
 #### Q) Does Blue Sentinel check/log IPs?
 A) No, unlike other anti-cheat tools Blue Sentinel does not grab or use your or anyone else's or IP addresses.
 
-Q) Why are you flagging glitches?
-
+#### Q) Why are you flagging glitches?
 A) This is a pretty divisive topic - In my view glitches such as "estus cancelling", ring of favour spam, and infinite stun locks have become so widespread and abused that they have become normalised in PvP. Some people argue that they are harmless and part of the game's normal behaviour so shouldn't be viewed as cheating, but I think we can all agree that the developers never intended this behaviour, and if they were still maintaining the game then these things would be patched. I could go on for hours about why I chose to flag some glitches over others, but there's plenty of arguments already out there.
 
-Q) I've found a bug with the current release, can I report this?
+#### Q) I've found a bug with the current release, can I report this?
 
 A) Please do, I'll try to get round to fixing it as fast as possible.
 
-Q) I know of / have been effected by a cheat that wasn't detected by this mod, can I report this?
-
+#### Q) I know of / have been effected by a cheat that wasn't detected by this mod, can I report this?
 A) Absolutely, please don't expect any cheats that aren't sent over the network to begin with to be detected though
 
-Q) Won't this tool be beneficial for cheaters, or give an advantage in PvP?
-
+#### Q) Won't this tool be beneficial for cheaters, or give an advantage in PvP?
 A) No. Some people feel like seeing the player list gives an advantage, however there are options to turn it off in the ini file.
 
-Q) Can we see the source code?
+#### Q) Can we see the source code?
+#### A) No, while I understand people can be distrustful of mods like this, I'm unwilling to make the source code public. Past experience has told me that certain groups are more interested in either crashing or exploiting protection tools than contributing to them, so I'd much rather not.
 
-A) No, while I understand people can be distrustful of mods like this, I'm unwilling to make the source code public. Past experience has told me that certain groups are more interested in either crashing or exploiting protection tools than contributing to them, so I'd much rather not.
-
-Q) Is this a virus?
-
+#### Q) Is this a virus?
 A) No, the mod is limited to Dark Souls III (when it is running) and does nothing outside of the process. It's function is to check incoming data from other players who are connected to you to make sure it's regular. If you are distrustful of this mod, there is a complete VirusTotal scan report (accessed by clicking the green "tick" next to the file in the 'Files' tab of the mod page. There may be a few flags, however rest assured this is just the code protection within the mod causing a false positive.
 
-Q) Can I modify or redistribute this mod?
-
+#### Q) Can I modify or redistribute this mod?
 A) No, sorry. Watchdog allowed this because we hoped the community could add to it in some way, but unfortunately a few just abused it's kick function to apply for any players, even without flags. Please do not modify, repackage, or redistribute this mod anywhere without my permission.
 
-Q) I have a question not answered here.
+#### Q) I have a question not answered here.
 A) If you need more information, or wish to report a bug, have a suggestion etc. please make a post about it, or send me a direct message.
 
 ## **Notes**
